@@ -25,7 +25,7 @@ services:
       - byfn
     volumes:
         - ./channel-artifacts/genesis.block:/var/hyperledger/orderer/orderer.genesis.block
-        - ./crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/msp:/var/hyperledger/orderer/msp
+        - ./crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/msp/:/var/hyperledger/orderer/msp
         - ./crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/tls/:/var/hyperledger/orderer/tls
         - orderer2.example.com:/var/hyperledger/production/orderer
     ports:
