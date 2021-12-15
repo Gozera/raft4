@@ -30,7 +30,7 @@ services:
       - ORDERER_GENERAL_GENESISMETHOD=file 
       - ORDERER_GENERAL_GENESISFILE=/var/hyperledger/orderer/orderer.genesis.block       
       - ORDERER_GENERAL_LOCALMSPID=OrdererMSP                
-      - ORDERER_GENERAL_LOCALMSPDIR=/var/hyperledger/order/msp          
+      - ORDERER_GENERAL_LOCALMSPDIR=/var/hyperledger/orderer/msp          
       - ORDERER_GENERAL_TLS_ENABLED=true
       - ORDERER_GENERAL_TLS_PRIVATEKEY=/var/hyperledger/orderer/tls/server.key             
       - ORDERER_GENERAL_TLS_CERTIFICATE=/var/hyperledger/orderer/tls/server.crt
